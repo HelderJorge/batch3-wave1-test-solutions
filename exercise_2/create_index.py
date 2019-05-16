@@ -7,7 +7,7 @@ def clean_word(word):
     return ''.join(char_list)
 
 
-def clean_word_with_regex(string):
+def clean_word_with_regex(word):
     return ''.join(re.findall("[a-zA-Z]+", word))
 
 
